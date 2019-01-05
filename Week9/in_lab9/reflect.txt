@@ -1,0 +1,18 @@
+Name: Huy Lam
+Section: GG
+Date: 27/11/2018
+					Reflection
+
+1) There will be a compiler error when template functions are moved to .cpp file. The reason being is that the compiler cannot find template declarations for those functions.
+
+2) In both cases, the compiler give back semantic error.
+
+3) It is possible with overloaded functions. The drawback of using overloaded function is code redundancy. Using templates allows a function to be flexible/dynamic unlike overloaded function where everything is fixed.
+
+4) They are equivalent to each other.
+
+
+					Quiz 8
+
+1) Answer: x = 1.10	count = 2
+   Correction: x = 1.1	count = 2

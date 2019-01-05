@@ -1,0 +1,15 @@
+Name: Huy Lam
+Section: GG
+Date: 13/11/2018					
+					Reflection
+
+1) No, Hero class does not need to know about the existence of SuperHero because it is the base class.
+
+2) Yes, SuperHero class need to know about the existence of Hero because SuperHero class is derived from Hero class.
+
+3) The print out was "Ancient Battle!" because SuperHero cannot use super power, for the overloaded operator* in Hero.cpp was called.
+
+4) True because constructor will be called and accept valid data.
+
+5) True because similarly to question 4, the constructor will still be called even though it was written differently.
+

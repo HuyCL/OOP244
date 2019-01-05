@@ -1,0 +1,11 @@
+					Reflection
+Name: Huy Lam
+Section: GG
+Email: hlam25@myseneca.ca
+Date: 05/11/2018
+
+1) In case of an object assigning to itself, without self-assignment check, the copy assignment operator will delete data of the source object and all data will be lost.
+
+2) Created a separate member function called "validation". This function was used in constructor with three parameters and overloaded operator+=. Since copy assignment operator and copy constructor uses the same code, calling copy assignment operator inside copy constructor saved a chunk of unnecessary code.
+
+3) In this workshop, I learned how to define and work with copy constructor, assignment operator, and destructor. I also learned how to avoid code duplication by creating new function that is being used repeatedly and utilizing operator to accomplish task(s).

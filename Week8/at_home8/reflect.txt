@@ -1,0 +1,22 @@
+Name: Huy Lam
+Section: GG
+Date: 20/11/2018					
+
+					Reflection
+
+1) The main difference between an abstract class and a concrete class is that abstract is undefined while concrete is defined.
+
+2) ChequingAccount::credit & Account::credit
+   ChequingAccount::debit & ChequingAccount::debit
+
+3) I learned how to define a pure virtual function and implement various definition in derived classes to achieve different outcome. I got myself familiarized with class hierarchy and work with it.
+
+
+					Quiz 7 Reflection
+
+3. b) Functions are declared with a virtual keyword in derived class.
+   Answer: True
+   Correction: False
+
+
+
