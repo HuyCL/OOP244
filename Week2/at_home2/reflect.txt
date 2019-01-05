@@ -1,0 +1,27 @@
+				Reflection
+
+1) Why do you need to allocate new dynamic memory when you increase the size of an existing array of dynamically allocated memory?
+
+A new dynamic memory is needed when resizing an array because the previous allocated memory is incorrect when we increase the array's size. If we don't go through this process, it will result in memory leak because of insufficient memory to hold data.
+
+
+2) The 'Kingdom' structure stores the name of the kingdom in an array of characters. At the end of the program, we do not use the 'delete' operator to delicate the memory occupied by the name itself. Why don't we need to use the 'delete' operator on this array itself?
+
+It is not necessary to relocate the name of the kingdom variable because it is inside a struct. Since it is defined, the memory is going to be static.
+
+
+3) There are two 'display(...)' function definitions. How does the compiler know which definition to call from your 'main' function?
+
+Though the two functions' name are the same, the compiler can tell the difference between the two by looking at their parameter(s).
+
+
+4) Describe what have you learned in this workshop.
+
+I learned how to allocate and deallocate dynamic memory. I also familiarized myself with namespaces.
+
+
+					Quiz 2 Reflection
+
+4. Answer: 10
+   Correct answer: Error
+				

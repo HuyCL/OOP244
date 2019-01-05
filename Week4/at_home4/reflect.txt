@@ -1,0 +1,32 @@
+Name: Huy Lam
+Seneca ID: 114705162
+Seneca Email: hlam25@myseneca.ca
+Section: GG
+Date: 07/10/2018
+
+					Reflection
+
+1) A safe empty state is when the default constructor sets the object to a specific state that we want the default to be. For example, object Person's 'fullname' safe empty state is NULL or '\0' because it is waiting to receive the user's input. It is possible to define a safe empty state that differs from the empty state that I defined as long as it meets the preconditions.
+
+2) I feel like I can minimize code duplication for constructor with 2 parameters and 5 parameters. I think that it is possible to create another function that is capable of transferring given data to class's data members.
+
+3) canTravelWith() member function have access to private data of Passenger object because  the object is being used as a parameter. The object parameter of this function is passing by reference, meaning that it is passing actual data to the function and not a copy.
+
+4) Strncpy() did not execute properly when I put its size the same as the string size. After I lowered the original size by 1, strncpy() started to function properly.
+
+5) What I learned in this workshop is that I can use 'this' to refer to the current object and accomplish my task. I also learned what is a safe empty state of an object and how to set object to a safe empty state.
+
+
+					Quiz 4 Reflection
+
+2) Answer: Binary operator & Boolean operator
+
+   Correction: Scope resolution operator (::) & Conditional operator (?:)
+
+3) Answer: False
+
+   Correction: True
+
+4) Answer: Hello from Test Main Started
+
+   Correction: Main Started

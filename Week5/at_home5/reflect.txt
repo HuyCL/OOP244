@@ -1,0 +1,25 @@
+Name: Huy Lam
+Seneca ID: 114705162	
+Section: GG
+Date: 11/10/2018
+
+					Reflection
+
+1) Operator+ should not return a reference to a Fraction object because this operator is adding current object to another object but we are NOT defining current object with new values. If we want to record new values, a new object is required.
+
+2) ( a + b )  - Temporary object
+   ( b + d )  - Temporary object
+   ( b += d ) - Temporary object
+   ( a == c ) - Not temporary object
+   ( a != c ) - Not temporary object
+
+3) One of the simplifications that I used was utilizing operator(s) inside another operator to accomplish task. This helped me avoid rewriting similar code again in another operator. I also used isEmpty() function when necessary. Though isEmpty() function is a small simple function, it helped minimizing a lot of my code.
+
+4) In this workshop, I learned how to use operators to accomplish multiple tasks with objects.I also learned to use an overloaded operator inside another operator to be more efficient with my code.
+
+
+					Quiz 5 Reflection
+
+5) Answer: 5
+   Correction: 6
+

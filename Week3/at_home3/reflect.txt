@@ -1,0 +1,25 @@
+Name: Huy Lam			
+Seneca ID: 114705162
+Seneca Email: hlam25@myseneca.ca
+Section: GG
+Date: 30/09/2018
+
+				Reflection
+
+1) The character string for family/given name is supposed to hold 40 characters long, so when declaring an array, the terminator character, '\0' / NULL, is taken into account. For example, create an array that can hold 40 characters, we declare char array[41] instead of char array[40] because of the extra NULL character.
+
+2) C++ is capable of overloading function. Overloaded functions can have the same name but with the condition that the parameters must be different.
+
+3) Through this workshop, I familiarized myself with overloaded functions. I learned how to convert an integer into an array. I created a different function outside of the ones mentioned in the workshop to accomplish a task.
+
+
+				Quiz 3 Reflection
+
+5) Answer: 1234567890
+	   **********
+	   1
+	   1200000000
+	   2.2
+
+Correction: 1234567890
+	    2.23******

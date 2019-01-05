@@ -1,0 +1,33 @@
+1. What is namespace? Explain its purpose.
+
+    Namespace is a scope that defines a block of code. It prevents conflict of any variable with the same name.
+
+2. Why are header files needed? Explain.
+    
+    Header files are needed for declaration of functions, variables, and structures.
+
+3. Explain why you don’t compile header files.
+
+    Header files do not have running codes, they only contain declarations.
+
+4. Explain why you should never include .cpp files in another file.
+
+    Including .cpp files in another file will resulting in you having two copies of the same code and may trigger errors. 
+
+5. Explain in your own words what have you learned in this workshop.		
+    I learned organize modules into header and source files. I also learned the differences between a header file and an implementation file and use of namespace.
+
+
+									Quiz 1 Reflection
+
+2. The variable that contains address of another variable is called?
+
+    It is called pointer variable.
+
+3. What are the main characteristics of objective oriented programming?
+
+    The characteristics of objective oriented programming are being able to break a program into modules, classes,     and creating objects. The main function is a form of encapsulation, inheritance, and polymorphism.
+
+5. A module named “computer” should have the files named?
+
+    It should have computer.cpp and computer.hpp.

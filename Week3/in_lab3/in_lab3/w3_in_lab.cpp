@@ -1,0 +1,85 @@
+//
+//  main.cpp
+//  in_lab3
+//
+//  Created by Huy Lam on 2018-09-25.
+//  Copyright © 2018 Huy Lam. All rights reserved.
+//
+
+/**********************************************************
+ // Workshop 3: Classes and Privacy
+ // w3_in_lab.cpp
+ // Version 3.0
+ // 2018/09/23
+ // Chris Szalwinski
+ // Description
+ // This workshop demonstrates classes in C++ and
+ // how member variables are defined privately, but
+ // accessed through public member functions
+ //
+ // Revision History
+ ///////////////////////////////////////////////////////////
+ // Name            Date                                 Reason
+ // Chris        2018/01/23            allow longer names
+ ///////////////////////////////////////////////////////////
+ **********************************************************/
+// Name: Huy Lam
+// Section: GG
+// Seneca ID: 114705162
+// Seneca Email: hlam25@myseneca.ca
+// Date: 25/09/2018
+
+#include <iostream>
+#include "CRA_Account.h"
+
+using namespace std;
+using namespace sict;
+
+int main() {
+    const int size = 1000;
+    char familyName[size];
+    char givenName[size];
+    sict::CRA_Account myCRA;
+    int sin;
+    bool quit = false;
+    if (sict::max_name_length + 1 > size) {
+        cerr << "Increase size to value greater than "
+        << sict::max_name_length + 1 << endl;
+        return 1;
+    }
+    
+    cout << "Canada Revenue Agency Account App" << endl
+    << "=================================" << endl << endl;
+    cout << "Please enter your family name: ";
+    cin >> familyName;
+    cin.ignore();
+    cout << "Please enter your given name: ";
+    cin >> givenName;
+    cin.ignore();
+    
+    do {
+        cout << "Please enter your social insurance number (0 to quit): ";
+        cin >> sin;
+        cin.ignore();
+        if (sin != 0)
+        {
+            myCRA.set(familyName, givenName, sin);
+            if (myCRA.isEmpty()) {
+                cout << "Invalid input! Try again." << endl;
+            }
+            else {
+                quit = true;
+            }
+        }
+        else {
+            quit = true;
+        }
+    } while (!quit);
+    cout << "----------------------------------------" << endl;
+    cout << "Testing the display function" << endl;
+    cout << "----------------------------------------" << endl;
+    myCRA.display();
+    cout << "----------------------------------------" << endl;
+    
+    return 0;
+}
